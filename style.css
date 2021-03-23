@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+#title {
+    text-align: left;
+    color:  rgb(0, 0, 255);
+    font-family: 'arial', monospace;
+}
+
+#ceas {
+    text-align: left;
+    color: rgb(0, 0, 255);
+    font-family: 'arial', monospace;
+}
+
+#n1 {
+    color:   rgb(0, 0, 255);
+    font-family: 'arial', monospace;
+
+}
+
+#v1 {
+    color:   rgb(0, 0, 255);
+    font-family: 'arial', monospace;
+
+}
+
+#result {
+    color:   rgb(0, 0, 255);
+    font-family: 'arial', monospace;
+
+}
+
+#t2 {
+    text-align: left;
+    color:   rgb(0, 0, 255);
+    font-family: 'arial', monospace;
+}
+
+form {
+    color:   rgb(0, 0, 255);
+    font-family: 'arial', monospace;
+
+}

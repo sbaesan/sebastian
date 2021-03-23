@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM2.0</title>
+    </head>
+<body>
+<!-- header -->
+    <h1 id="title">Servus! <span id="nume"></span> - bine ai venit!</h1>
+    <div id="ceas"></div>
+    <br>
+
+
+    <!-- Nickname -->
+<div id="n1">
+    </right>
+        <span >Nickname:</span>
+        <br>
+        <input id="input_name" type="text" oninput="ValueKeyPress()"> 
+    </right>
+    </div>
+    <br>
+
+<!-- Varsta -->
+<div class="age">  
+    </right>
+    <p id="v1">Data nasterii: </p>
+    <input type="date" id="DOB">   
+    <span id="message"> </span>    
+    <button type="Trimite" onclick = "ageCalculator()"> Trimite </button> 
+    <br> 
+    <h3 id="result"></h3>   
+</right>
+</div>  
+
+<!-- Form -->
+<form action="/noob.html">
+    </right>
+
+    <h2 id="t2">Spune mai multe despre tine!</h2>
+
+    <span>Gen:</span>
+    <select id="Gen">
+      <option value="men">Masculin</option>
+      <option value="female">Feminin</option>
+      <option value="other">Altul</option>
+ 
+    <br><br>
+
+      <span>Nume:</span><br>
+      <input id="nume" type="text"><br>
+      <span>Prenume:</span><br>
+      <input id="Prenume" type="text">
+    
+    <br>
+    
+      <span>De unde esti?</span><br>
+      <input id="oras" type="text"><br>
+    
+
+    <br>
+   
+    <span>Care este cel mai fain loc o vacanta?</span> <br>
+      <input type="checkbox" id="Papua Noua Guinee" name="vacanta" value="Papua Noua Guinee">
+      <label for="Papua Noua Guinee">Papua Noua Guinee</label><br>
+      <input type="checkbox" id="Delta Olavango" name="vacanta" value="Delta Olavango">
+      <label for="Delta Olavango">Delta Olavango</label><br>
+      <input type="checkbox" id="Peninsula Yukatán" name="vacanta" value="Peninsula Yukatán">
+      <label for="Peninsula Yukatán">Peninsula Yukatán </label><br>
+      <input type="checkbox" id="Indonezia" name="vacanta" value="Indonezia">
+      <label for="Indonezia">Indonezia</label>
+
+      
+    <br> <br>
+
+    <button id="buton">Trimite</button>
+ </right>
+</form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
